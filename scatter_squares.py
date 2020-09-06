@@ -12,4 +12,5 @@ plt.ylabel('Square of Value', fontsize=14)  # Подпись оси у
 plt.axis([0, 1100, 0, 1100000])
 # Назначение размера шрифта делений на осях
 plt.tick_params(axis='both', which='major', labelsize=14)
-plt.savefig('squares_plot.png', bbox_inches='tight') # Сохранение картинки графика( имя файла, отсекание пустых полей)
+# Сохранение картинки графика( имя файла, отсекание пустых полей)
+plt.savefig('imagies/squares_plot.jpg', bbox_inches='tight')
